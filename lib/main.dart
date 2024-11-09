@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nisa_travel/latihanmodul/pertemuan4.dart';
+import 'package:nisa_travel/latihanmodul/pertemuan5.dart';
+import 'package:nisa_travel/screens/splash_screen.dart';
 
-void main(){
+void main() {
   runApp(TravelApp());
 }
 
@@ -10,8 +12,6 @@ class TravelApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MyApp()
-    );
+    return MaterialApp(home: Splashscreen());
   }
 }
