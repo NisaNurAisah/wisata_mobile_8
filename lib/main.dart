@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nisa_travel/latihanmodul/pertemuan4.dart';
 import 'package:nisa_travel/latihanmodul/pertemuan5.dart';
+import 'package:nisa_travel/latihanmodul/pertemuan6.dart';
 import 'package:nisa_travel/screens/splash_screen.dart';
 
 void main() {
@@ -12,6 +13,6 @@ class TravelApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Splashscreen());
+    return MaterialApp(home: Pertemuan6());
   }
 }
